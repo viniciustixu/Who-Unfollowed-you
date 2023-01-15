@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="images/faviconA.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who unfollowed you? GitHub</title>
+</head>
+<body>
+    <header>
+        <h1>Who unfollowed you?</h1>
+        <a href="#hwu"><p>How to use?</p></a>
+    </header>
+    
+
+    <div class="container">
+        <div class="areas">
+            <h2>Who follows me?</h2>
+            <textarea name="abuble" id="txta" cols="50" rows="15"></textarea>
+        </div>
+
+        <div class="areas">
+            <h2>Who i follow?</h2>
+            <textarea name="abuble2" id="txta2" cols="50" rows="15"></textarea>
+        </div>
+
+        <div class="calcular-button">
+            <input type="button" value="Find them" onclick="calcular()" class="botao">
+        </div>
+
+        <div id="resultado">
+            
+        </div>
+    </div>
+
+    <div class="how-to-use-container" id="hwu">
+        <h1>How to use?</h1>
+        <p>It's pretty simple!</p>
+        <p>Here is a video explaining:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-u7tETWdZmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p id="msg-pequena">(please, activate subtittle of the video for better understanding)</p>
+    </div>
+
+    <footer><p>Created by Tixu</p>  
+        <a href="https://twitter.com/viniciustixuu" target="_blank"><img src="images/twitter_2_icon-icons.com_59206.png" alt="icon-twitter"></a>
+        <a href="https://github.com/viniciustixu" target="_blank"><img src="images/github-mark-white.png" alt="icon-gitHub"></a>
+    </footer>
+
+    <script src="javaScript/WUY.js"></script>
+</body>
+</html>
